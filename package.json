@@ -1,0 +1,24 @@
+{
+  "name": "wine-voice-logger",
+  "version": "0.1.0",
+  "private": true,
+  "description": "One-week CLI to log wine bottles by voice into session CSV files",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@prof401/speech-whisper-kit": "file:../speech-whisper-kit/packages/speech-whisper-kit",
+    "dotenv": "^16.6.1",
+    "openai": "^5.12.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
