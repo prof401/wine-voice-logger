@@ -30,7 +30,7 @@ const main = async (): Promise<void> => {
   const transcript = await client.transcribe(audioBuffer);
 
   output.write("Parsing transcript…\n");
-  const entries = await parseTranscriptToWineEntries(transcript);
+  const entries = await parseTranscriptToWineEntries(transcript, client);
   const csvPath = await writeSessionCsv(entries);
 
   const needsReviewCount = entries.filter((e) => e.NeedsReview === "yes").length;

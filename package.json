@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "@prof401/speech-whisper-kit": "file:../speech-whisper-kit/packages/speech-whisper-kit",
-    "dotenv": "^16.6.1",
-    "openai": "^5.12.2"
+    "dotenv": "^16.6.1"
   },
   "devDependencies": {
     "@types/node": "^24.7.2",
