@@ -98,4 +98,4 @@ Recording logic lives in `src/recording.ts`; parsing uses `/normalize` in `src/p
 
 ## License
 
-Throwaway utility — no license specified.
+[MIT](LICENSE)
